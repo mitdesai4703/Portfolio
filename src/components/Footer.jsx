@@ -1,5 +1,6 @@
 import React from 'react';
-import { FaLinkedin, FaInstagram, FaGithub, FaTwitter } from 'react-icons/fa';
+import { FaLinkedin, FaInstagram, FaGithub,  } from 'react-icons/fa';
+import { FaXTwitter } from "react-icons/fa6";
 
 const Footer = () => {
   return (
@@ -14,7 +15,7 @@ const Footer = () => {
           </p>
           <div className="flex space-x-4 mb-4">
             <a
-              href="https://www.linkedin.com/in/your-profile"
+              href="https://www.linkedin.com/in/mit-desai-38944025b/"
               target="_blank"
               rel="noopener noreferrer"
               className="hover:text-blue-600 transition-colors duration-300 transform hover:scale-110"
@@ -23,16 +24,16 @@ const Footer = () => {
               <FaLinkedin size={30} />
             </a>
             <a
-              href="https://twitter.com/your-profile"
+              href="https://x.com/MitDesai0407"
               target="_blank"
               rel="noopener noreferrer"
-              className="hover:text-blue-500 transition-colors duration-300 transform hover:scale-110"
+              className="hover:text-gray-800 transition-colors duration-300 transform hover:scale-110"
               aria-label="Twitter Profile"
             >
-              <FaTwitter size={30} />
+              <FaXTwitter size={30} />
             </a>
             <a
-              href="https://www.instagram.com/your-profile"
+              href="https://www.instagram.com/mitdesai_04/"
               target="_blank"
               rel="noopener noreferrer"
               className="hover:text-pink-500 transition-colors duration-300 transform hover:scale-110"
