@@ -16,7 +16,7 @@ const Computers = ({ isMobile }) => {
         penumbra={1}
         intensity={2}
         castShadow
-        shadow-mapSize={[1024, 1024]}
+        shadow-mapSize={[512, 512]}
       />
       <pointLight intensity={1.5} position={[10, 10, 10]} />
       <ambientLight intensity={1} />
